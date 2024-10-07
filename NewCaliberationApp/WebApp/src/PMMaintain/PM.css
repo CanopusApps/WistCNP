@@ -1,0 +1,350 @@
+/* .headerBlock {
+  padding-left: 20px;
+  min-height: 200px;
+}
+.pm-container {
+  width: 98%;
+  margin: 0 auto;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  width: 33%;
+}
+
+.error-message {
+  color: red;
+}
+
+.table-container { 
+  max-width: 95%;  
+  overflow: auto;  
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 0.12px; 
+}
+
+.table-pm {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-pm th, .table-pm td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap; 
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+}
+
+.table-pm th {
+  color: #ddd;
+  width: 100px; 
+}
+
+a.Dcc :hover
+{
+  color:burlywood !important;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;  
+}
+
+.link:hover {
+  color: lightblue;  
+}
+
+
+ 
+.search-box {
+  display: flex;
+  justify-content: right;
+  margin: 20px 0;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  width: 0;
+  opacity: 0;
+  transition: width 0.4s ease, opacity 0.4s ease;
+  outline: none;
+}
+
+.search-input.active {
+  width: 200px;
+  opacity: 1;
+}
+
+.search-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.search-container:hover .search-input {
+  width: 200px;
+  opacity: 1;
+}
+
+.search-container:hover .search-button {
+  background-color: #0056b3;
+}
+
+.search-pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+.code
+{
+  color: antiquewhite;
+  font-weight: bolder;
+}
+.code:hover{
+  text-decoration: underline;
+  color: aqua;
+}
+
+
+thead th:first-child, tbody td:first-child {
+  position: -webkit-sticky; 
+  position: sticky;
+  left: 0;
+  background-color: darkslategray; 
+}
+ */
+
+
+
+ 
+
+.headerBlock {
+  padding-left: 20px;
+  min-height: 200px;
+}
+
+.pm-container {
+  width: 98%;
+  margin: 0 auto;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  width: 33%;
+}
+
+.error-message {
+  color: red;
+}
+
+/* Table Container */
+.table-container { 
+  max-width: 95%;  
+  overflow: auto;  
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 0.12px;
+}
+
+/* Table Styles */
+.table-pm {
+  border-collapse: collapse;
+  min-width: 100%; 
+}
+
+.table-pm th, .table-pm td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap; 
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+}
+
+/* Sticky Header Row */
+.table-pm thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: darkslategray; 
+  color: #ddd;
+  z-index: 2; /* Ensure header stays above other content */
+}
+
+/* Sticky First Column */
+
+
+/* Sticky First Header and Data Cells */
+.table-pm th:first-child,
+.table-pm td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  background-color: darkslategray; /* Matches the header for consistency */
+  color: #ddd; /* Ensures text is readable against background */
+  z-index: 3; /* Ensures this cell is above both the header and data cells */
+}
+
+/* Link Styles */
+a.Dcc:hover {
+  color: burlywood !important;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;  
+}
+
+.link:hover {
+  color: lightblue;  
+}
+
+/* Search Box Styles */
+.search-box {
+  display: flex;
+  justify-content: right;
+  margin: 20px 0;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  width: 0;
+  opacity: 0;
+  transition: width 0.4s ease, opacity 0.4s ease;
+  outline: none;
+}
+
+.search-input.active {
+  width: 200px;
+  opacity: 1;
+}
+
+.search-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.search-container:hover .search-input {
+  width: 200px;
+  opacity: 1;
+}
+
+.search-container:hover .search-button {
+  background-color: #0056b3;
+}
+
+.search-pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+/* Code Styles */
+.code {
+  color: antiquewhite;
+  font-weight: bolder;
+}
+
+.code:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* The switch - this is the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+/* The slider before the toggle */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+/* When the checkbox is checked, change the background and position of the slider */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}

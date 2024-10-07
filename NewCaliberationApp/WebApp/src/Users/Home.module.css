@@ -1,0 +1,41 @@
+.emp {
+    font-size: 1.5rem;
+    color: #d9fdff; /* Change to your desired text color */
+    text-shadow: 0 0 2rem #00f0ff; /* Adjust shadow color */
+    animation: flicker 2s ease-in-out infinite alternate;
+    text-align: center;
+    padding: 1rem;
+    background-color: #1b2431; /* Optional: background color */
+    border: 1px solid #ccc; /* Optional: border */
+    border-radius: 5px; /* Optional: border radius */
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    5% {
+        opacity: 1;
+    }
+    5.5% {
+        opacity: 0;
+    }
+    6% {
+        opacity: 1;
+    }
+    6.5% {
+        opacity: 1;
+    }
+    7% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

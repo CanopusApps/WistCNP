@@ -1,0 +1,26 @@
+.commentBox {
+    align-items: center;
+    display: flex;
+}
+
+.calreject, .calaccept {
+    width: 30%;
+    margin: 10px;
+}
+
+.cbtn , .cbtns
+{
+    background-color: transparent;
+    border: 0;
+    color: wheat;
+}
+
+.cbtn:hover{
+    color: red;
+    background-color: transparent;
+}
+
+.cbtns:hover{
+    color: lightgreen;
+    background-color: transparent;
+}

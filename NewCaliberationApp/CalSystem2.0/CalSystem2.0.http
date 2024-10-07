@@ -1,0 +1,6 @@
+# @CalSystem2._0_HostAddress = http://localhost:5238
+
+# GET {{CalSystem2._0_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+# ###

@@ -1,0 +1,129 @@
+/* Styles for the popup container */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -55%)scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%)scale(1);
+    }
+}
+
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 72%;
+    max-height: 80%;
+    min-height: 80%;
+    min-width: 72%;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  /* Style for the close button */
+  .close-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the edit button */
+  .edit-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Styles for the form container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .form-input, .form-value {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .form-value
+  {
+    color: aqua;
+  }
+  .form-input
+  {
+    color: green;
+  }
+  
+  .form-input {
+    border: 1px solid #ddd;
+  }
+  
+  .form-value {
+    background-color: #f8f9fa;
+  }
+  
+  .save-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for error messages */
+  .error-message {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .react-datepicker-wrapper,
+.react-datepicker__input-container {
+    width: 80%;
+    left: 20%;
+}
+

@@ -1,0 +1,104 @@
+
+
+.btn {
+  text-align: center;
+}
+
+.submit {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.submit:hover
+{
+background-color: lightgreen;
+}
+
+.label-textbox {
+  margin: 5px 0;
+}
+
+input[type="text"], input[type="password"] {
+  box-sizing: border-box;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+
+.form-row label {
+  display: inline-block;
+  padding-left: .5cm;
+  padding-right: 1cm;
+  width: 25%;
+}
+
+.form-row input, select#userRole {
+  height: 35px;
+  margin-block: 5px;
+  width: 25%;
+}
+
+.submit-row {
+  text-align: center;
+}
+
+.submit-row input {
+  width: 50%;
+  padding: 10px;
+}
+
+.form-container {
+  width: auto;
+  margin: 0 auto;
+  padding: 1.5%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 33.33%; 
+  display: flex;
+  justify-content: center;
+}
+
+.table{
+  max-height: 300px; 
+  overflow-y: auto;
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 0.12px;
+  max-width: 100%;
+}
+
+.record {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.record th, .record td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.record thead {
+  background-color: cadetblue;
+  position: sticky;
+  top: 0; 
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.delete:hover {
+  color: red; 
+}
+
+.a:hover {
+  color: aliceblue;
+}
+
+
+
+

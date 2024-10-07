@@ -1,0 +1,91 @@
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 70%;
+    overflow-y: auto;
+    background-color: mintcream;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background: #ff1a1a;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .required-label::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .save-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .save-button:hover {
+    background: #0056b3;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .field-error {
+    color: #ff4d4d;
+    font-size: 12px;
+    margin-top: 5px;
+  }
